@@ -4,7 +4,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,5 +12,8 @@
     "express": "^4.19.2",
     "prop-types": "^15.8.1",
     "stripe": "^16.10.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.3"
   }
 }
